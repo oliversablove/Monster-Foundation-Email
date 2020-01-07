@@ -22,10 +22,11 @@ html,
     white-space: nowrap;
     text-decoration: underline;
     text-align: right;
+    padding-right: 5px;
   }
 }
 .header {
-  background: cyan;
+  background: $secondary-color;
   .header-logo {
     .columns {
       padding-top: 52px;
@@ -53,16 +54,21 @@ html,
 
 // <------------- content area -------------->
 
+// <------------- hiring message ------------>
 .content-area {
   background: $secondary-color;
   .content-area-background {
-    padding-top: 50px !important;
+    // padding-top: 50px !important;
     // padding: 20px !important;
   }
   .hiring-message {
     // don't use margin (temporary)
-    max-width: 520px !important;
+    // max-width: 520px !important;
     background: white;
+    .hiring-center {
+      max-width: auto !important;
+      table-layout: fixed;
+    }
     img {
       font-size: 34px;
       line-height: 42px;
@@ -116,4 +122,40 @@ html,
       -webkit-border-radius: 40px;
     }
   }
+}
+
+// <------------- social media section ------------>
+
+.social-media-section {
+  background: $secondary-color;
+  .m-logo {
+    padding-top: 50px;
+    padding-bottom: 47px;
+  }
+  strong {
+    font-size: 16px;
+    font-family: Arial;
+  }
+  .social-media-buttons {
+    max-width: 375px;
+    margin: 0 auto;
+    margin-top: 22px;
+    .sm-button {
+      height: 67px;
+      width: 67px;
+      padding-left: 11px;
+    }
+  }
+
+    .store {
+      margin: 0 auto;
+      margin-top: 50px;
+      margin-bottom: 40px;
+      max-width: 345px;
+      img {
+        height: 50.47px;
+        width: 150px;
+        padding-left: 12px;
+      }
+    }
 }
