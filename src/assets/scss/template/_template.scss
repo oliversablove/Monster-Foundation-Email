@@ -55,6 +55,7 @@ html,
 // <------------- content area -------------->
 
 // <------------- hiring message ------------>
+
 .content-area {
   background: $secondary-color;
   .content-area-background {
@@ -62,12 +63,14 @@ html,
     // padding: 20px !important;
   }
   .hiring-message {
+    min-width: 100% !important;
     // don't use margin (temporary)
     // max-width: 520px !important;
     background: white;
     .hiring-center {
+      min-width: 100% !important;
       max-width: auto !important;
-      table-layout: fixed;
+      table-layout: fixed !important;
     }
     img {
       font-size: 34px;
