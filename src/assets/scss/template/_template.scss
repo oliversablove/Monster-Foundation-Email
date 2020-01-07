@@ -8,6 +8,13 @@ html,
   background: #f3f3f3 !important;
 }
 
+img {
+  font-size: 14px;
+  color: $secondary-color;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
 // <---------------- header ---------------->
 .view-in-browser {
   background-color: $secondary-color;
