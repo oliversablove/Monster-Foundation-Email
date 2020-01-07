@@ -7,3 +7,45 @@ html,
 .body {
   background: #f3f3f3 !important;
 }
+
+// <---------------- header ---------------->
+.view-in-browser {
+  background-color: $secondary-color;
+
+  .columns {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  a {
+    font-size: 11px;
+    font-family: sans-serif;
+    white-space: nowrap;
+    text-decoration: underline;
+    text-align: right;
+  }
+}
+.header {
+  .header-logo {
+    .columns {
+      padding-top: 52px;
+    }
+    img {
+      height: 23px;
+      width: 138px;
+      max-width: 138px;
+      line-height: 14px;
+      font-family: Arial, sans-serif;
+    }
+  }
+  .header-text {
+    .columns {
+      padding-top: 38px;
+      padding-bottom: 38px;
+    }
+    strong {
+      font-size: 40px;
+      line-height: 48px;
+      color: $primary-color;
+    }
+  }
+}
