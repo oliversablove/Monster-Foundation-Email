@@ -22,9 +22,11 @@ html,
     white-space: nowrap;
     text-decoration: underline;
     text-align: right;
+    padding-right: 5px;
   }
 }
 .header {
+  background: $secondary-color;
   .header-logo {
     .columns {
       padding-top: 52px;
@@ -48,4 +50,112 @@ html,
       color: $primary-color;
     }
   }
+}
+
+// <------------- content area -------------->
+
+// <------------- hiring message ------------>
+.content-area {
+  background: $secondary-color;
+  .content-area-background {
+    // padding-top: 50px !important;
+    // padding: 20px !important;
+  }
+  .hiring-message {
+    // don't use margin (temporary)
+    // max-width: 520px !important;
+    background: white;
+    .hiring-center {
+      max-width: auto !important;
+      table-layout: fixed;
+    }
+    img {
+      font-size: 34px;
+      line-height: 42px;
+      height: 107.41px;
+      width: 460px;
+      max-width: 460px;
+      padding-top: 10px;
+      padding-bottom: 5px;
+    }
+    strong {
+      color: $primary-color;
+      font-size: 34px;
+      font-family: sans-serif;
+    }
+    p {
+      width: 370px;
+      text-align: center;
+      font-size: 16px;
+      line-height: 24px;
+      font-family: sans-serif;
+      padding-top: 25px;
+      padding-left: 50px;
+      padding-right: 50px;
+      color: #000000;
+      span {
+        color: #6e46ae;
+        font-weight: bold;
+      }
+    }
+  }
+  .button-row {
+    .columns {
+      padding-top: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 60px;
+      background: white;
+    }
+    .button {
+      font-size: 16px;
+      padding-top: 10px;
+      padding-left: 65px;
+      padding-right: 65px;
+      padding-bottom: 10px;
+      background-color: #aa50a0;
+      color: white;
+      font-weight: bold;
+      font-family: sans-serif;
+      border-radius: 40px;
+      -moz-border-radius: 40px;
+      -webkit-border-radius: 40px;
+    }
+  }
+}
+
+// <------------- social media section ------------>
+
+.social-media-section {
+  background: $secondary-color;
+  .m-logo {
+    padding-top: 50px;
+    padding-bottom: 47px;
+  }
+  strong {
+    font-size: 16px;
+    font-family: Arial;
+  }
+  .social-media-buttons {
+    max-width: 375px;
+    margin: 0 auto;
+    margin-top: 22px;
+    .sm-button {
+      height: 67px;
+      width: 67px;
+      padding-left: 11px;
+    }
+  }
+
+    .store {
+      margin: 0 auto;
+      margin-top: 50px;
+      margin-bottom: 40px;
+      max-width: 345px;
+      img {
+        height: 50.47px;
+        width: 150px;
+        padding-left: 12px;
+      }
+    }
 }
