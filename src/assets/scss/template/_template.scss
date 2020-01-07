@@ -159,3 +159,22 @@ html,
       }
     }
 }
+
+// <------------- footer ------------>
+
+.footer-container {
+  max-width: 500px;
+  .footer {
+    background: $secondary-color;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000 !important;
+    a {
+      color: #000000 !important;
+      .no-underline {
+        text-decoration: none;
+        font-weight: bold !important;
+      }
+    }
+  }
+}
